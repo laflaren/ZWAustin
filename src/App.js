@@ -18,9 +18,6 @@ function App(props) {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>
-          Austin ZW Consultants
-        </h2>
         <Router> 
           <Nav /> 
           <Routes>
