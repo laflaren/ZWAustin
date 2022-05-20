@@ -1,40 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@600&family=Zilla+Slab+Highlight&display=swap');
+
+
+
 *{
-  background-color: #b0a69b;
-
-}
-.App {
+  background-color: #cecbc8;
   text-align: center;
-}
-.App-logo {
-  max-height: 30px;
-  pointer-events: none;
-  margin: 5px;
+  color: rgb(46, 46, 46);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.header{
   background-color: #7dc13e;
-  min-height: 10vh;
+}
+
+.menu {
+  background-color: #7dc13e;
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
+  width: 500px;
+  justify-content: space-evenly;
+}
+
+.applecore{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  max-width: 10%;
+  margin-left: 45%;
+}
+h1{
+  font-family: 'Zilla Slab Highlight';
+  background: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h3{
+  background: none;
+  font-family: 'Sarina';
+  color: white;
 }
 
 a{
   margin: 1px 10px;
-  color: #ffffff;
+  color: #262279;
 }
 a:link {
   text-decoration: none; 
@@ -68,5 +76,23 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+img{
+  max-width: 100%;
+}
+
+.tips{
   
+}
+
+
+.App-logo {
+  max-height: 30px;
+  pointer-events: none;
+  margin: 5px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }

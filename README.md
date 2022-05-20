@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It's a mock business to showcase knowledge about frontend, usabiltiy, and backend. Climate chaos increasing at this rate necessitates zero waste individual & family unit lifestyles, business models, and community guidelines. This site offers advice, and included example services. 
 
 ## Available Scripts
 

@@ -4,7 +4,9 @@ function Footer(props){
   return (
     <div className="footer"> 
       <img src={logo} className="App-logo" alt="logo" />
-      Created with ReactJS | © Natalie La Flare {props.year}
+      Natalie La Flare {props.year}
+      <img src={logo} className="App-logo" alt="logo" />
+
     </div>
   )
 }
