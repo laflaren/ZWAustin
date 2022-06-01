@@ -1,24 +1,21 @@
 import { Link } from 'react-router-dom'; 
-import { useState } from "react";
 
 function Header() {
 
   
   return (
     <div className="header"> 
-    <div className='menu'> 
-    <ul>
+    <ul className='menu'>
           <li>
             <Link to='/'> Home </Link>
           </li>
           <li>
-            <Link to='/About'> About </Link>
+            <Link to='/about'> About </Link>
           </li>
           <li>
-            <Link to='/Resources'> Resources </Link>
-          </li>
+            <Link to='/resources'> Resources </Link>
+          </li> 
     </ul>
-    </div>
       <h1> Zero Waste Austin Consultants </h1>  <br />
   </div>
   );
