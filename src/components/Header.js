@@ -16,7 +16,15 @@ function Header() {
             <Link to='/resources'> Resources </Link>
           </li> 
     </ul>
-      <h1> Zero Waste Austin Consultants </h1>  <br />
+    
+    <div className="gooder">
+    <h1> Gooder Co</h1>
+    </div>
+
+    <div className="subheader">
+      <h2> Zero Waste Austin Consultants </h2>  
+      </div>
+      
   </div>
   );
 }
